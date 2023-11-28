@@ -2,7 +2,9 @@ use std::ffi::OsString;
 use std::fs;
 use std::collections::BTreeSet;
 
-
+// This is the first iteration of the function, not very successful.
+// @bestcrazynoob helped me out here but we have a big skill issue
+//
 // fn listdir(dir: &str, set: &mut BTreeSet<&str>) {
 //     let paths = fs::read_dir(dir).unwrap();
 //     for path in paths {
